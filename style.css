@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  color: black;
+  line-height: 1.4;
+  font-size: 20px;
+  font-weight: 350;
+  font-family: 'Zilla Slab', serif;
+}
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+h2 {
+  color: #033860;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+
+.github-mokhtar {
+  background-image: linear-gradient(to bottom, rgba(3, 56, 96, 1), rgba(3, 56, 96, 1));
+  font-size: 26px;
+  color: white;
+  font-weight: 350;
+  font-style: italic;
+}
+.github-mokhtar:hover {
+  background-image: linear-gradient(to bottom, rgba(188, 141, 167, 1), rgba(188, 141, 167, 1));
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.banner {
+  text-align: center;
+  color: white;
+  background-image: url("https://source.unsplash.com/random/900x450");
+  background-size: cover;
+  padding: 125px 0;
+}
+.banner h1 {
+  font-size: 42px;
+}
+.banner p {
+  font-size: 34px;
+  font-weight: 450;
+  opacity: 0.7;
+  font-style: italic;
+
+}
+
+
